@@ -38,6 +38,7 @@
     <Content Include="src\components\Navbar.vue">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="src\components\SideBar.vue" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />

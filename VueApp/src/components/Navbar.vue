@@ -1,7 +1,7 @@
 <template>
 <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+        <b-navbar-brand href="#"><SideBar class="sb"/></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -39,12 +39,21 @@
 </div>
     </template>
 
+<style>
+    .sb{
+        margin-left: 10px
+    }
+</style>
 
 <script>
     import { Component, Prop, Vue } from 'vue-property-decorator';
     import { BootstrapVue } from 'bootstrap-vue';
+    import SideBar from './SideBar.vue';
     Vue.use(BootstrapVue)
     export default {
-        name: 'Navbar'
+        name: 'Navbar',
+        components: {
+            SideBar,
+        }
     }
 </script>
