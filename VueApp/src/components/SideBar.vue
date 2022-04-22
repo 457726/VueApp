@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-button v-b-toggle.sidebar-footer><font-awesome-icon icon="fa-solid fa-bars-staggered" /></b-button>
+        <b-button v-b-toggle.sidebar-footer><font-awesome-icon icon="fa-solid fa-bars-staggered"/></b-button>
         <b-sidebar id="sidebar-footer" aria-label="Sidebar with custom footer" no-header shadow>
             <template #footer="{ hide }">
                 <div class="d-flex bg-dark text-light align-items-center px-3 py-2">
